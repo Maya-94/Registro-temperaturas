@@ -10,50 +10,18 @@ Este proyecto muestra cómo **iterar arreglos multidimensionales (matriz 3D)** c
 - `dia` → Lunes...viernes.
 
 ## Requisitos
-- Python 3.9 o superior (también funciona con 3.8).
-- *No requiere librerías externas*.
+- Python 3.9 o superior 
 
-## Cómo ejecutar
 
-### Opción A) Doble clic (IDLE) en Windows
-1. Descarga `registro_temperaturas.py` a una carpeta.
-2. Haz **clic derecho** → *Edit with IDLE* (o ábrelo con IDLE).
-3. Presiona **F5** para ejecutar. Verás el resultado en la consola de IDLE.
-
-### Opción B) VS Code
-1. Instala [Python] y [VS Code].
-2. Abre la carpeta del proyecto en VS Code.
-3. Crea o abre `registro_temperaturas.py`.
-4. Abre una **Terminal** en VS Code (``Ctrl+` ``).
-5. Ejecuta: `python registro_temperaturas.py` (o `py registro_temperaturas.py`).
-
-### Opción C) PyCharm
+###  PyCharm
 1. Abre PyCharm y **Open** la carpeta del proyecto.
 2. Clic derecho sobre `registro_temperaturas.py` → **Run 'registro_temperaturas'**.
 3. Mira la salida en la consola *Run*.
 
-## ¿Qué puedes cambiar?
-- En el archivo, ajusta:
-  - `semanas = 2` → pon 3, 4, etc.
-  - Lista `ciudades` o `dias`.
-  - Rango de temperaturas (`temp_min`, `temp_max`).
-  - Semilla (`seed`) para resultados reproducibles.
 
 ## Subir a GitHub (pasos simples)
 
-### 1) Usando GitHub (web)
-1. Ve a GitHub → **New repository** → nómbralo `registro-temperaturas`.
-2. Entra al repo → **Add file** → **Upload files** → sube `registro_temperaturas.py` y este `README.md`.
-3. **Commit changes**.
-4. Abre `registro_temperaturas.py` en GitHub y copia la URL del navegador. **Ese es el enlace** que debes pegar en la plataforma.
-
-### 2) Con GitHub Desktop
-1. **File → New repository** (ubicación: carpeta del proyecto).
-2. Arrastra `registro_temperaturas.py` y `README.md` a esa carpeta si aún no están.
-3. En GitHub Desktop: escribe un mensaje y **Commit to main** → **Publish repository**.
-4. Clic derecho sobre `registro_temperaturas.py` → **View on GitHub** → copia la URL.
-
-### 3) Con Git desde terminal
+### Git desde terminal
 ```bash
 git init
 git add registro_temperaturas.py README.md
