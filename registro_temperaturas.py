@@ -5,7 +5,7 @@
 import random
 
 # --- Parámetros del problema ---
-ciudades = ["Quito", "Guayaquil", "Ambato"]
+ciudades = ["Quito", "Guayaquil", "cuenca"]
 dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sabado"]
 semanas = 2  # Cambia a 3 o más si necesitas
 
